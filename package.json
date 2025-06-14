@@ -1,32 +1,17 @@
 {
   "name": "test-app",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "express": "4.17.1",
-    "jquery": "3.4.1",
-    "lodash": "4.17.15"
-  },
+  "version": "1.0.0",
+  "description": "Test application for vulnerability scanning",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "dependencies": {
+    "lodash": "4.17.15",
+    "jquery": "3.4.1",
+    "express": "4.17.1"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "author": "",
+  "license": "ISC"
 }
